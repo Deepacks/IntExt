@@ -1,8 +1,8 @@
-ext: ext.o
-	g++ ext.o -o ext
+myapp: myapp.o
+	g++ myapp.o -o ext
 
-ext.o: ext.cpp
-	g++ -c ext.cpp
+myapp.o: myapp.cpp
+	g++ -c myapp.cpp
 
 clean:
 	rm *.o math
