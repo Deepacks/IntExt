@@ -10,24 +10,23 @@ using namespace std;
 int main(void) {
 
   //reg
-  string a =  "Matteo Balestrini" ;
-  string b =  "Stephane Bethaz" ;
-  string c =  "Carolina Bravo" ;
-  string d =  "Vladimir Cuneaz" ;
-  string e =  "Alessandro Ledda" ;
-  string f =  "Simone Mimotti" ;
-  string g =  "Mattia Molinari" ;
-  string h =  "Filippo Petey" ;
-  string i =  "Chiara Renda" ;
-  string j =  "Filippo Rosset" ;
-  string k =  "Giada Scarpante" ;
-  string l =  "Emanuel Simioana" ;
-  string m =  "Gaia Spinella" ;
-  string n =  "Carmine Sterrantino" ;
-  string o =  "Samuele Tartoni" ;
-  string p =  "Davide Trossello " ;
-  string q =  "Maxime Uroni" ;
-  string r =  "Beatrice Zani" ;
+  string a = "Matteo Balestrini" ;
+  string b = "Stephane Bethaz" ;
+  string c = "Carolina Bravo" ;
+  string d = "Vladimir Cuneaz" ;
+  string e = "Alessandro Ledda" ;
+  string f = "Simone Mimotti" ;
+  string g = "Mattia Molinari" ;
+  string h = "Filippo Petey" ;
+  string i = "Chiara Renda" ;
+  string j = "Filippo Rosset" ;
+  string k = "Giada Scarpante" ;
+  string l = "Emanuel Simioana" ;
+  string m = "Gaia Spinella" ;
+  string n =  "Samuele Tartoni" ;
+  string o =  "Davide Trossello " ;
+  string p =  "Maxime Uroni" ;
+  string q =  "Beatrice Zani" ;
   //reg
 
   //dat
@@ -59,14 +58,14 @@ int main(void) {
       dumb = dumb + ppl[idx] ;
     }
     cout << endl << endl;
-    if (dumb != 18) flag++ ;
+    if (dumb != 17) flag++ ;
   }while (flag > 0) ;
   //dat
 
   //gen
   std::vector<int> ext ;
 
-  for (int idx=0 ; idx<18 ; idx++) {
+  for (int idx=0 ; idx<17 ; idx++) {
     ext.push_back(idx) ;
   }
 
@@ -142,13 +141,10 @@ int main(void) {
           case 16 :
             cout << q ;
           break ;
-          case 17 :
-            cout << r ;
-          break ;
         }
         nidx++ ;
         cout << endl ;
-        if (nidx == 19) break;
+        if (nidx == 18) break;
       }
       cout << endl << endl ;
     }
